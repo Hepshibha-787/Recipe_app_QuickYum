@@ -22,9 +22,9 @@ app.use('/api',recipeRouter)
 
 mongoose
   .connect(
-    "mongodb+srv://sumanmalakar2022:yq9euydwXXgWfkaN@cluster0.kjapjji.mongodb.net/",
+    "mongodb+srv://hepshibha:hepshibha@cluster0.jpyo2.mongodb.net/", 
     {
-      dbName: "MERN_Recipe_YouTube",
+      dbName: "MERN_Recipe_2025",
     }
   )
   .then(() => console.log("MongoDB is Connected..!"))
